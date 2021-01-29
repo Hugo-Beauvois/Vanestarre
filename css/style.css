@@ -1,0 +1,748 @@
+@media screen and (min-width: 800px) {
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: #210032;
+        margin: 0;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        height: 80px;
+        overflow: hidden;
+        color: #9EFAFF;
+        background-color:#E2ABFF;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .centre{
+        margin-left: 3em;
+    }
+
+    .liconnexion{
+        display: none;
+    }
+
+    .droite{
+        float: right;
+    }
+
+    .droite2{
+        float: right;
+        margin-top: 1.5em;
+    }
+
+    li{
+        float: left;
+    }
+
+    .accueil{
+        display: block;
+        height: 28px;
+        text-align: center;
+        padding: 30px 28px 24px 28px;
+        margin-left: 1em;
+        text-decoration: none;
+        background: url(../image/Vanestarre.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 12em;
+    }
+
+    .accueil:hover{
+        background: url(../image/Vanestarre_dark.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 12em;
+    }
+
+    .fleche{
+        text-decoration: none;    
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin: 4px;
+        padding: 0.5em;
+    }
+
+    .imgfleche{
+        width: 4em;
+    }
+
+    main{
+        position: relative;
+        margin-right: 20%;
+        margin-left: 20%;
+        text-align: center;
+        color: #9EFAFF;
+
+    }
+
+    .main_form{
+        border-style: solid;
+        border-width: 5px;
+        border-color: #E2ABFF;
+        border-radius: 30px;
+        padding: 30px;
+        color:#9EFAFF;
+        background-color: #E2ABFF;
+        margin-top: 5em;
+    }
+
+    form{
+        text-align: left;
+    }
+
+    .form{
+        position: relative;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        color: #9EFAFF;
+        font-weight: bold;
+        font-size: 1.25em;
+    }
+
+    input{
+        color:rgb(255, 255, 255);
+        border-color: #E2ABFF;
+        background-color: #E2ABFF;
+        overflow: auto;
+    }
+
+    .form input, textarea{
+        width: 95%;
+        margin-left: 5px;
+        padding: 5px;
+        border-style: solid;
+        border-radius: 10px;
+        margin-bottom: 17px;
+        margin-top: 7px;
+        border-color: #210032;
+        background-color: #210032;
+        overflow: auto;
+    }
+
+    input:placeholder-shown, textarea:placeholder-shown{
+        color: rgb(255, 255, 255);
+        font-style: italic;
+    }
+
+    .form textarea{
+        color: rgb(255, 255, 255);
+        resize: none;
+    }
+
+    .form .file{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+
+    .loupe{
+        width: 1.5em;
+        margin: 28px 15px 28px 0;
+    }
+
+    .recherche{
+        font-size: 1.25em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 55em;
+        height: 40px;
+        border-width: 0.1em;
+        border-color: #9EFAFF;
+    }
+
+    .connexionform{
+        margin: 3px 0 0;
+        height: 50px;
+        font-weight: bold;
+    }
+
+    .connexion{
+        margin: 3px 2px 0;
+        border: solid;
+        border-color: #9EFAFF;
+        border-width: 2px;
+        font-weight: bold;
+    }
+
+    .enregistrer{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 1.5px 8px;
+        margin-left: 1em;
+    }
+
+    .menu .pseudo{
+        font-size: 1.75em;
+        color: #9EFAFF;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    .menu .deconnexion{
+        font-size: 0.6em;
+        font-weight: lighter;
+        font-style: italic;
+        text-align: right;
+        margin-left: 10em;
+        margin-right: 0.8em;
+        text-decoration: none;
+        color: #210032;
+    }
+
+    .menu .deconnexion a{
+        color: #210032;
+        text-decoration: none;
+    }
+
+    .menu .deconnexion a:visited{
+        color: #210032;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    h1{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .boutonPost{
+        height: 4em;
+        margin-top: 3em;
+    }
+
+    .addPost{
+        border: solid;
+        padding: 1em 1em 1em 3em;
+        text-decoration: none;
+        background-color: #E2ABFF;
+        border-color: #9EFAFF;
+        color: #9EFAFF;
+        background-image: url(../image/plus.png);
+        background-repeat: no-repeat;
+        background-size: 1.5em;
+        background-position: left;
+        background-position: 0.8em;
+    }
+
+    .image{
+        max-width: 600px;
+    }
+
+    .titre{
+        margin-left: 1.9em;
+    }
+
+    .date{
+        font-size: 0.3em;
+        margin-left: 1em;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .tags{
+        font-size: 1.25em;
+        font-style: italic;
+    }
+
+    .spantags{
+        margin: 0.25em 1em;
+    }
+
+    .emojis{
+        width: 2em;
+        margin: 0em 0em 0em 5em;
+    }
+
+    .emojischiffre{
+        margin: 1em 0.25em 3em;
+    }
+
+    .ligneemoji{
+        margin: 0 3em 0 0;
+        height: 5em;
+    }
+
+    .post{
+        border-bottom: solid;
+        border-color: #E2ABFF;
+        margin-bottom: 5em;
+    }
+
+    .pagelist{
+        background-color:#210032;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .pagination{
+        float: none;
+        display: inline;
+        margin: 0.3em;
+    }
+
+    .chiffre{
+        font-size: 1.5em;
+        border: solid;
+        color: #9EFAFF;
+        padding: 0.1em 0.3em;
+    }
+
+    .pagination a{
+        text-decoration: none;
+    }
+
+    .pagination a:visited{
+        color: #9EFAFF;
+    }
+
+    .actuel .chiffre{
+        border-color: #E2ABFF;
+    }
+
+    .flechepage{
+        width: 1em;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .form .checkbox{
+        width: 30px;
+    }
+
+    .form .condition{
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 0.8em;
+    }
+
+    .form .submit{
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+    }
+
+    .form a{
+        text-decoration-color: #9EFAFF;
+        color:#9EFAFF;
+    }
+
+    .form a:visited{
+        color: #9EFAFF;
+    }
+
+    .main_form h1{
+        margin-bottom: 0.2em;
+    }
+
+    .error{
+        color: #FF0000;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0 auto;
+        font-size: 0.7em;
+        text-align: left;
+    }
+
+    .connexionform .error{
+        margin-left: 3em;
+    }
+
+    .errorFile{
+        color: #FF0000;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0 auto;
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .recup{
+        background-color: #210032;
+        text-align: right;
+        padding: 0.2em;
+    }
+
+    .recuperation{
+        border: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color:#210032;
+        margin: 0;
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 3.5em;
+        overflow: hidden;
+        background-color:#E2ABFF;
+        position: -webkit-fixed;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    .menu{
+        width: 100%;
+        height: 3em;
+    }
+
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+
+    .nav:hover{
+        height: 21em;
+    }
+
+    .menu:hover{
+        display: block;
+    }
+    
+    .menu a{
+        display: block;
+        color:#9EFAFF;
+        text-align: center;
+        padding: 18px 22px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .accueil{
+        display: block;
+        height: 28px;
+        text-align: center;
+        padding: 30px 28px 24px 28px;
+        margin-left: 1em;
+        text-decoration: none;
+        background: url(../image/Vanestarre.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 12em;
+    }
+
+    .accueil:hover{
+        background: url(../image/Vanestarre_dark.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 12em;
+    }
+
+    .centre{
+        display: none;
+    }
+
+    .recherche{
+        font-size: 1.25em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 1.5em;
+        padding: 0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 15em;
+        height: 40px;
+        border-width: 0.1em;
+        border-color: #9EFAFF;
+    }
+
+    .rechercheform{
+        margin-top: 1em;
+    }
+
+    .liconnexion{
+        margin-top: 2em;
+    }
+
+    .connexionmobile{
+        font-size: 1.7em;
+    }
+
+    .droite, .droite2{
+        display: none;
+    }
+
+    .fleche{
+        display: none;
+    }
+    
+    main{
+        position: relative;
+        margin-top: 5em;
+        margin-right: 1em;
+        margin-left: 1em;
+        text-align: center;
+        color: #9EFAFF;
+
+    }
+
+    .main_form{
+        border-style: solid;
+        border-width: 5px;
+        border-color: #E2ABFF;
+        border-radius: 30px;
+        padding: 30px;
+        color:#9EFAFF;
+        background-color: #E2ABFF;
+        margin-top: 5em;
+    }
+
+    form{
+        text-align: left;
+    }
+
+    .form{
+        position: relative;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        color: #9EFAFF;
+        font-weight: bold;
+        font-size: 1.25em;
+    }
+
+    input{
+        color:rgb(255, 255, 255);
+        border-color: #E2ABFF;
+        background-color: #E2ABFF;
+        overflow: auto;
+    }
+
+    .form input, textarea{
+        width: 95%;
+        margin-left: 5px;
+        padding: 5px;
+        border-style: solid;
+        border-radius: 10px;
+        margin-bottom: 17px;
+        margin-top: 7px;
+        border-color: #210032;
+        background-color: #210032;
+        overflow: auto;
+    }
+
+    input:placeholder-shown, textarea:placeholder-shown{
+        color: rgb(255, 255, 255);
+        font-style: italic;
+    }
+
+    .form textarea{
+        color: rgb(255, 255, 255);
+        resize: none;
+    }
+
+    .form .file{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    
+    form{
+        position: relative;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+    
+    p{
+        font-size: 1.15em;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+
+    .boutonPost{
+        height: 2em;
+        margin-top: 3em;
+    }
+
+    .addPost{
+        border: solid;
+        padding: 0.5em 0.5em 0.5em 2em;
+        text-decoration: none;
+        background-color: #E2ABFF;
+        border-color: #9EFAFF;
+        color: #9EFAFF;
+        background-image: url(../image/plus.png);
+        background-repeat: no-repeat;
+        background-size: 1em;
+        background-position: left;
+        background-position: 0.6em;
+    }
+
+    .image{
+        max-width: 300px;
+    }
+
+    .titre{
+        margin-left: 1.9em;
+    }
+
+    .date{
+        font-size: 0.3em;
+        margin-left: 1em;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .tags{
+        font-size: 1.25em;
+        font-style: italic;
+    }
+
+    .spantags{
+        margin: 0.15em 0.25em;
+    }
+
+    .emojis{
+        width: 1.5em;
+        margin: 0em 0em 0em 1em;
+    }
+
+    .emojischiffre{
+        margin: 1em 0.25em 3em;
+    }
+
+    .ligneemoji{
+        margin: 0 0.5em 0 0;
+        height: 3em;
+    }
+
+    .post{
+        border-bottom: solid;
+        border-color: #E2ABFF;
+        margin-bottom: 2em;
+    }
+
+    .pagelist{
+        background-color:#210032;
+        text-align: center;
+        padding-top: 1em;
+        position: relative;
+    }
+
+    .pagination{
+        float: none;
+        display: inline;
+        margin: 0.3em;
+    }
+
+    .chiffre{
+        font-size: 1.5em;
+        color: #9EFAFF;
+        padding: 0.1em 0.3em;
+    }
+
+    .pagination a{
+        text-decoration: none;
+    }
+
+    .pagination a:visited{
+        color: #9EFAFF;
+    }
+
+    .actuel .chiffre{
+        border-color: #E2ABFF;
+    }
+
+    .flechepage{
+        width: 1em;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .form .checkbox{
+        width: 30px;
+    }
+
+    .form .condition{
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 0.8em;
+    }
+
+    .form .submit{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+
+    .form a{
+        text-decoration-color: #9EFAFF;
+        color:#9EFAFF;
+    }
+
+    .form a:visited{
+        color: #9EFAFF;
+    }
+
+    .error{
+        color: #FF0000;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0 auto;
+        font-size: 0.7em;
+        text-align: left;
+    }
+
+    .connexionform .error{
+        margin-left: 3em;
+    }
+
+    .errorFile{
+        color: #FF0000;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0 auto;
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .recup{
+        background-color: #210032;
+        text-align: right;
+        padding: 0.2em;
+    }
+}
